@@ -1,0 +1,29 @@
+{
+  "name": "booking-driver-mobile",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@booking/shared": "github:RaminduSamarawickrama/booking-shared#465e8d8aae4c4aa6e534d3f5849a959e89a91a64",
+    "expo": "~57.0.27",
+    "expo-secure-store": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

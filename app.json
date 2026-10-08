@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Transfers Driver",
+    "slug": "booking-driver-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.booking.driver"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1412",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "dev.booking.driver"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bookingdriver"
+  }
+}
